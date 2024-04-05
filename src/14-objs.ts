@@ -1,9 +1,4 @@
 (() => {
-  const login = (data: { email: string; password: number }) => {
-    console.log(data.email, data.password);
-  };
-  login({ email: 'email@email.com', password: 123 });
-
   type Size = 'S' | 'M' | 'L' | 'XL';
   type Product = {
     title: string;
